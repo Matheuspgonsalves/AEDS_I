@@ -5,3 +5,7 @@ A minha matéria de AEDS (Algorítimo e estrutura de dados) abrange a linguagem 
 eu resolvi criar este repositório contendo os exercícios pra armazená-los e documentar a minha
 evolução na linguagem. 
 
+Neste repositório você provavelmente irá encontrar exercícios básicos ou complexos relacionados
+a linguagem C. 
+
+Espero que goste!!
