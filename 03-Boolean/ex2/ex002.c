@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main ()
 {
     //declaração e entrada de dados do valor "a"
     int a;
