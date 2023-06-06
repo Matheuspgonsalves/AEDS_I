@@ -18,16 +18,40 @@ int main()
 	
 	if(a == b && a == c)
 	{
-		printf("\nTriangulo Equilatero");
+		
+		if(a + b <= c || a + c <= b || b + c <= a)
+		{
+			printf("\nAs condicoes nao permitem a existencia do triangulo\n");
+		}
+		else 
+		{
+			printf("\nTriangulo Equilatero");
+		}
 	}
 	
 	else if(a != b && b != c && a != c)
 	{
-		printf("\nTriangulo Escaleno");
+		if(a + b <= c || a + c <= b || b + c <= a)
+		{
+			printf("\nAs condicoes nao permitem a existencia do triangulo\n");
+		}
+		else 
+		{
+			printf("\nTriangulo Escaleno");
+		}
 	}
 	
 	else if( (a == b && a != c) || (a != b && a == c))
 	{
-		printf("\nTriangulo Isoceles");
+		if(a + b <= c || a + c <= b || b + c <= a)
+		{
+			printf("\nAs condicoes nao permitem a existencia do triangulo\n");
+		}
+		else 
+		{
+			printf("\nTriangulo Isoceles");
+		}
 	}
+	
+	
 }
